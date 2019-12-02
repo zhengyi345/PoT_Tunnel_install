@@ -8,6 +8,6 @@ git clone https://github.com/goproxyio/goproxy.git&&cd goproxy&&make
 export GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 
-echo “安装完成...请在系统根目录下执行./pot_tunnel.sh进行隧道转发...”
-chmod +x pot-tunnel.sh./pot-tunnel.sh
+echo “安装完成...”
+
 
